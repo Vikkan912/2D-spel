@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Enemy
+  - Wall
+  - InvisibleWall
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - EnemyTriggers
+  - Player
+  - Ground
+  - InvisibleWall
+  - Grounded
+  - Coin
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Wall
+    uniqueID: 1198606423
+    locked: 0
+  - name: Object
+    uniqueID: 2192668917
+    locked: 0
+  - name: deco
+    uniqueID: 1872094003
+    locked: 0
+  - name: New Layer
+    uniqueID: 2956410933
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: EditorHelpers
+    uniqueID: 2151111659
+    locked: 0
