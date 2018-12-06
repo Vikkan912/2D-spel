@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Coin : MonoBehaviour
 {
-    //static menas att det finns I alla scripts. så om man skriver namnet i ett annat script kommer det mena det här namnt.
+    //static menas att det finns I alla scripts. så om man skriver namnet i ett annat script kommer det mena det här namnet.
    
     public static int score;
     public int amount = 1;

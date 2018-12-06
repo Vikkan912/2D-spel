@@ -20,8 +20,10 @@ public class groundchecker : MonoBehaviour
         {
             jumpDubble += 1;
         }
+        //Om din Jump är lika med noll (Du hoppar 2 gånger) så plusas den med två istället
         if (jumpDubble == 0)
         {
+            //Jump adderas 2
             jumpDubble += 2;
         }
     }
@@ -31,20 +33,23 @@ public class groundchecker : MonoBehaviour
     {
         //Den miskas om du lämnar alla objekt.
         grounded --;
-        
+        //När du hoppar så blir din Jump minskat med 1 
         jumpDubble -= 1;
     }
 
     public void Update()
     {
+        //om din Jump är lika med 1 så kan det under hända.
         if (jumpDubble == 1)
         {
+            //När du trycker på space så hoppar din gubbe på y axeln.
             if (Input.GetButtonDown("Jump"))
             {
+                //Du hoppar på Y-axeln
                 rbody.velocity = new Vector2(
                     rbody.velocity.x,
                     jumpSpeed);
-
+                //När du trycker på space hoppar du. Sen så minskas din jump till noll. sen kan du inte hoppa igen. tills du kommer till marken.
                 jumpDubble -= 1;
             }
         }

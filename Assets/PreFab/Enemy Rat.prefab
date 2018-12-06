@@ -22,10 +22,10 @@ GameObject:
   - component: {fileID: 212833783025594394}
   - component: {fileID: 60863997987261778}
   - component: {fileID: 50666067790447956}
-  - component: {fileID: 114897218745426044}
+  - component: {fileID: 114952577930354452}
   - component: {fileID: 114133484935024864}
   - component: {fileID: 114685045225207914}
-  - component: {fileID: 114819041291536492}
+  - component: {fileID: 114400459581705320}
   m_Layer: 0
   m_Name: Enemy Rat
   m_TagString: Enemy
@@ -115,6 +115,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isLeft: 1
+--- !u!114 &114400459581705320
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1749296934806292}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f26ceef9940c87e4fab43b17d30f7d64, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyHealth: 30
 --- !u!114 &114685045225207914
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -128,19 +140,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   minimumScoreNeeded: 0
   sceneToLoad: 2d
---- !u!114 &114819041291536492
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1749296934806292}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f26ceef9940c87e4fab43b17d30f7d64, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  enemyHealth: 30
---- !u!114 &114897218745426044
+--- !u!114 &114952577930354452
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}

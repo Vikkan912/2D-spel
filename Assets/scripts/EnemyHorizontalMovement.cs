@@ -21,7 +21,7 @@ public class EnemyHorizontalMovement : MonoBehaviour
 
     }
 
-        //En uppdate är när det händer varje frame. Men fixed gör så att det är mycket mera långsammare. den är * DeltaTime. Den används oftast vid RigidBody. 
+        //En uppdate är när det händer varje frame. Men fixed gör så att det är mycket mera långsammare. den är DeltaTime. Den används oftast vid RigidBody. 
     private void FixedUpdate()
     {
 

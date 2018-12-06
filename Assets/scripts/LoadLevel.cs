@@ -14,7 +14,7 @@ public class LoadLevel : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
     {
         //&& = och
-        //***
+        //När du dör eller byter level så kommer dina pengar att resetas.
         if (collision.tag == "Player" && Coin.score >= minimumScoreNeeded)
         {
             //hur mycket pengar du har när du börjar. 
